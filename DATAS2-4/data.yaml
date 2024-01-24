@@ -1,0 +1,21 @@
+names:
+- '10'
+- '20'
+- '30'
+- '40'
+- '50'
+- '60'
+- '70'
+- '80'
+- '90'
+- staff
+nc: 10
+roboflow:
+  license: MIT
+  project: datas2
+  url: https://universe.roboflow.com/abdi-fatah-fauzan-yryp6/datas2/dataset/4
+  version: 4
+  workspace: abdi-fatah-fauzan-yryp6
+test: ../test/images
+train: DATAS2-4/train/images
+val: DATAS2-4/valid/images

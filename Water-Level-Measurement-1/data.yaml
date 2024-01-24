@@ -1,0 +1,12 @@
+names:
+- water-level-meters
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: water-level-measurement
+  url: https://universe.roboflow.com/boprc/water-level-measurement/dataset/1
+  version: 1
+  workspace: boprc
+test: ../test/images
+train: Water-Level-Measurement-1/train/images
+val: Water-Level-Measurement-1/valid/images
