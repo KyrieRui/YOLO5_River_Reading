@@ -2,6 +2,8 @@
 
 #### The first version demo:
 
+![01 Image](01.png)
+
 ##### train with dataset: DATAS2-4
 
 ```
@@ -34,8 +36,20 @@
 !python detect.py --source 0 --weights runs/train/exp/weights/best.pt
 ```
 
+<<<<<<< Updated upstream
 #### For andorid app, we can use the tflite model, to convert the model to tflite model, just follow this bellow steps:
 
 ```
 !python export.py --weights runs/train/exp/weights/best.pt --img 640 --batch 1
 ```
+=======
+#### For export to tflite model(for embedded into mobile device):
+
+```
+!python export.py --include tflite --imgsz 320 --weights runs/train/exp/weights/best.pt
+```
+
+#### The version 2 is trained with dataset: DATAS2-4, it have more images which labeled all the numbers from 0 to 9 on the scale
+
+![02 Image](02.jpg)
+>>>>>>> Stashed changes
