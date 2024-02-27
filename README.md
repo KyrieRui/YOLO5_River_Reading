@@ -33,3 +33,9 @@
 ```
 !python detect.py --source 0 --weights runs/train/exp/weights/best.pt
 ```
+
+#### For andorid app, we can use the tflite model, to convert the model to tflite model, just follow this bellow steps:
+
+```
+!python export.py --weights runs/train/exp/weights/best.pt --img 640 --batch 1
+```
